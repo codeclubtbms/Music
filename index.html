@@ -32,6 +32,7 @@
         function play() {
             if(!played) {
                 var audio = new Audio('assets/audio/music.mp3');
+                audio.loop = true;
                 audio.play();
             }
             played = true;
