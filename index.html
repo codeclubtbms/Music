@@ -20,11 +20,22 @@
             <hr />
             <h3>Where words fail, music speaks.</h3><br />
             <div class="buttons">
-                <a class = "btn btn-default"><i class="fa fa-file-text"></i> Explore</a>
-                <a class = "btn btn-default"><i class="fa fa-info-circle"></i> About</a><br /><br />
-                <a class = "btn btn-default"><i class="fa fa-play-circle"></i> Play Music</a>
+                <a class = "btn btn-default" href="explore.html"><i class="fa fa-file-text"></i> Explore</a>
+                <a class = "btn btn-default" href="about.html"><i class="fa fa-info-circle"></i> About</a><br /><br />
+                <a class = "btn btn-default" id="play" onclick="play();"><i class="fa fa-play-circle"></i> Play Music</a>
             </div>
+            <audio src="assets/audio/music.mp3"></audio>
         </div>
     </div>
+    <script type="text/javascript">
+        var played=false;
+        function play() {
+            if(!played) {
+                var audio = new Audio('assets/audio/music.mp3');
+                audio.play();
+            }
+            played = true;
+        }
+    </script>
 </body>
 </html>

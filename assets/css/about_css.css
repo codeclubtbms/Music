@@ -1,0 +1,15 @@
+.content-wrapper {
+    margin-top: 50px;
+    display: table;
+    height: 500px;
+    width: 100%;
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body {
+    text-align: center;
+}

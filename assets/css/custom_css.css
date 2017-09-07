@@ -1,0 +1,70 @@
+footer {
+    text-align: center;
+    font-family: monospace;
+    padding: 20px;
+}
+
+footer > small > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer > small > a:hover {
+    color: #000;
+}
+
+.content-wrapper {
+    margin-top: 50px;
+}
+
+.container {
+    //
+    color: black;
+    background-color: rgba(180, 50, 4, 0.47);
+    font-size: 17px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.container p {
+    padding: 10px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    position: relative;
+    background: none;
+    color: rgba(255, 255, 255, 0.71);
+    text-align: center;
+    height: 380px;
+    width: 100%;
+    display: table;
+}
+
+.header-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.header-content > h1 {
+    font-size: 100px;
+}
+
+.jumbotron .header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/guitar-cover.jpg");
+    background-position: 0% 25%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    z-index: -1;
+}
