@@ -8,8 +8,11 @@
 .container {
     display: table-cell;
     vertical-align: middle;
+    font-size: 17px;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
-body {
+.center {
     text-align: center;
 }
