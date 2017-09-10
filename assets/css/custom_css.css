@@ -17,7 +17,7 @@ footer > small > a:hover {
     margin-top: 50px;
 }
 
-.container {
+.page-content {
     color: black;
     background-color: rgba(180, 50, 4, 0.47);
     font-size: 17px;
@@ -25,7 +25,7 @@ footer > small > a:hover {
     padding-right: 130px;
 }
 
-.container p {
+.page-content p {
     padding: 10px;
 }
 

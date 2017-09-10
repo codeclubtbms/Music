@@ -1,16 +1,14 @@
 .content-wrapper {
     margin-top: 50px;
-    display: table;
     height: 500px;
     width: 100%;
 }
 
-.container {
-    display: table-cell;
+.page-content {
     vertical-align: middle;
     font-size: 17px;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .center {
