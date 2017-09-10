@@ -1,8 +1,5 @@
 # Project website on Music
 
-![](https://www.tbmes.org/images/title.png)
-
-
 * * *
 
 ## Core languages used
